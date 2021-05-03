@@ -11,11 +11,24 @@ package bat_ariketa;
  */
 public class SmartWatch {
     private static SmartWatch nSmartW = null;
+    // private EgoeraModua pEgoera;
+
     
     
     private SmartWatch()
     {
-        // TODO
+    	//this.pEgoera = new Normala();    
+    }
+
+    public static synchronized SmartWatch getInstance()
+    {
+    	if (nSmartW == null)
+    	{
+    		nSmartW = new SmartWatch();
+    	}
+    	return nSmartW;
     }
     
+
+
 }
