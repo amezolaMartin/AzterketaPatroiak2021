@@ -1,4 +1,4 @@
-
+package bat_ariketa;
 public interface EgoeraModua {
 
 
