@@ -3,18 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package bi_ariketa;
+package bat_ariketa;
 
 /**
  *
  * @author martin
  */
-public class Main {
+public class SmartWatch {
+    private static SmartWatch nSmartW = null;
     
-    public static void main(String[] args) {
-        
-        HankaPalo hkp1 = new HankaPalo();
-        TarrinaAdapter ta1 = new TarrinaAdapter();
+    
+    private SmartWatch()
+    {
+        // TODO
     }
     
 }
